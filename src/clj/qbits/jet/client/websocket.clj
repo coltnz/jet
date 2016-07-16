@@ -23,9 +23,9 @@ The option map can take the following keys:
 requests http://download.eclipse.org/jetty/stable-9/apidocs/org/eclipse/jetty/util/ssl/SslContextFactory.html
 * `:in` - fn that returns the :in channel that the handler will receive -
 defaults to c.core.async/chan
-* `:out` - fn that returns the :in channel that the handler will receive -
+* `:out` - fn that returns the :out channel that the handler will receive -
 defaults to c.core.async/chan
-* `:ctrl` - fn that returns the :in channel that the handler will receive -
+* `:ctrl` - fn that returns the :ctrl channel that the handler will receive -
 defaults to c.core.async/chan
 
 The handler receives a map of:
